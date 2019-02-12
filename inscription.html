@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INSCRIPTION</title>
+	<meta charset="utf-8">
+	<meta lang="fr">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="page.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Alice|Charm|KoHo|Lato|Roboto+Mono" rel="stylesheet">
+	<meta name="description" content="Job GABON">
+	<meta name="keywords" content="emploi,boulot,travail,GABON,Libreville">
+	<meta name="author" content="Raissa Mour">
+</head>
+<body>
+	<header>
+		<img src="img/logo.PNG">
+		<a href="connexion.html">Connexion</a>
+		<a href="inscription.html" class="actives">Inscription</a>
+		<a href="compteoublie.html">Identifiant ou mot de passe oublié</a>
+		<select name="Langues">
+			<option value="FRANCAIS">FRANCAIS</option>
+			<option value="ENGLISH">ENGLISH</option>
+			<option value="DEUTSCH">DEUTSCH</option>
+			<option value="ARABE">ARABE</option>
+			<option value="SPANISH">SPANISH</option>	
+		</select>
+	</header>
+
+	<nav>
+		<ul>
+  			<li><a href="index.html">ACCUEIL</a></li>
+  			<li><a href="demande.html">DEMANDES</a></li>
+  			<li><a href="offre.html">OFFRES</a></li>
+  			<li class="dropdown">
+    			<a href="javascript:void(0)" class="dropbtn">PUBLIER</a>
+    			<div class="dropdown-content">
+      				<a href="publieroffre.html">OFFRES</a>
+      				<a href="publierdemande.html">DEMANDES</a>
+    			</div>
+  			</li>
+  			<li><a href="politique.html">POLITIQUE</a></li>
+  			<li><a href="apropos.html">A PROPOS</a></li>
+  			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+
+	<div class="inscription">
+		
+		<form >
+			
+			<fieldset>
+			<h2>Créer un compte</h2>
+				<p>J'utiliserai JobGABON en tant que:</p>
+				<form>
+  					<input type="radio" name="gender" value="Demandeurd'emploi" checked>Demandeur d'emploi<br>
+  					<input type="radio" name="gender" value="employeur">Employeur<br>
+  					<input type="radio" name="gender" value="agentrecruteur"> Agent recruteur d'une agence<br>
+				
+				<h2>Informations sur le compte</h2>
+
+				<input type="text" placeholder="Nom*" >
+				<input type="text" placeholder="Prénom*" ><br>
+				Date de naissance:<input type="number" placeholder="Jour*" min="1" max="30" value="Jour">
+				<select name="mois" placeholder="mois*">
+  							<option value="Janvier">Janvier</option>
+  							<option value="Fevrier">Fevrier</option>
+  							<option value="Mars">Mars</option>
+  							<option value="Avril">Avril</option>
+  							<option value="Mai">Mai</option>
+  							<option value="Juin">Juin</option>
+  							<option value="Juillet">Juillet</option>
+  							<option value="Aout">Aout</option>
+  							<option value="Septembre">Septembre</option>
+  							<option value="Octobre">Octobre</option>
+  							<option value="Novembre">Novembre</option>
+  							<option value="Decembre">Decembre</option>
+				</select>
+				<!--<input type="month" name="Mois" value="Mois">-->
+				<input type="number" placeholder="année" min="1940" max="2000"><br>
+				<input type="email"  placeholder="Votre Adresse email*" >
+  				<input type="password"  placeholder="Créer un mot de passe*" ><br>
+  				<input type="text" placeholder="Ville*">
+  				<input type="text" placeholder="Quartier"><br>
+  				<input type="text" placeholder="Proffession / Profil*">
+  				<input type="text" placeholder="Téléphone*"><br>
+  				<input type="text" placeholder="Nationalité">
+  				<input type="text" placeholder="Niveau d'étude"><br>
+  				Ajouter votre cv*:<input type="file"  class="file"><br>
+  				Ajouter une photo:<input type="file" class="file" ><br>
+  				<button class="butonvert"><a href="index.html">S'INCRIRE</a></button><br><br>
+  				<hr>
+  				<li>Avez-vous déjà créé votre compte? Ici, vous pouvez y accéder.</li><br>
+  				<li>En soumettant ce formulaire vous acceptez nos <a href="condition.html">Conditions générales ,Politiques et confidentialités</a>de validite.  Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner</li>
+  			</fieldset>			
+		</form>
+
+		<div class="cote">
+		    <h3>Créer un compte sur JobGABON pour déverrouiller ces fonctionnalités</h3>
+			<div>
+				<p><i class="fas fa-lock"></i>Sécurité: Vos données sont sécurisées et confidentielles</p>
+			</div>
+			<div>
+				<p><i class="fas fa-bell"></i>Job-Alerte: Recevez des offres d’emploi adéquates selon vos critères.</p>
+			</div>
+			<div>
+				<p><i class="fab fa-wpforms"></i>Candidature en 1 clic: Remplissez des formulaires de candidature en un seul clic.</p>
+			</div>
+			<p>Voir des titres d'emplois et des compétences similaires pour vous aider à faire votre choix.</p>
+			<p>Téléchargez un CV et devenez visible aux gestionnaires d'embauche et aux employeurs.</p>
+			<p>Postulez facilement aux emplois en un seul clic!</p>
+			<p>Recommandations d'emploi en fonction de votre activité</p>
+			<p>Grace à notre portail vous pouvez recruter des talents nationaux et internationaux </p>
+
+			<div>
+				<p><i class="fas fa-lock"></i>Sécurité: Vos données sont sécurisées et confidentielles</p>
+			</div>
+			<div>
+				<p><i class="fas fa-bell"></i>Job-Alerte: Recevez des offres d’emploi adéquates selon vos critères.</p>
+			</div>
+			<div>
+				<p><i class="fab fa-wpforms"></i>Candidature en 1 clic: Remplissez des formulaires de candidature en un seul clic.</p>
+			</div>
+			<p>Voir des titres d'emplois et des compétences similaires pour vous aider à faire votre choix.</p>
+			<p>Téléchargez un CV et devenez visible aux gestionnaires d'embauche et aux employeurs.</p>
+			<p>Postulez facilement aux emplois en un seul clic!</p>
+			<p>Recommandations d'emploi en fonction de votre activité</p>
+			<p>Grace à notre portail vous pouvez recruter des talents nationaux et internationaux </p>
+		</div>
+		
+	</div>
+
+	<footer>
+		<div class="monfooter">
+			<p><i class="fas fa-map-marker"></i> Centre ville</p>
+			<p>BP 176 Libreville</p>
+			<p>GABON</p>
+		</div>
+
+		<div class="monfooter">
+			<p>JobGabon</p>
+			<img src="img/logo.PNG">
+			<p>Copyright @RaissaMOUR</p>
+		</div>
+		
+		<div class="monfooter">
+			<p><i class="fas fa-phone"></i> Tel: +241 06065864</p>
+			<p><i class="fas fa-envelope"></i> Email: jobGABON@gmail.ga</p>
+			<p>Rejoignez nous sur :<i class="fab fa-facebook"></i></p>
+		</div>
+		<div class="monfooter">
+			<p>	Ecole +241</p>
+			<p>REF-DIG</p>
+			<p>Ogooue Labs</p>
+		</div>
+		
+	</footer>
+
+</body>
+</html>

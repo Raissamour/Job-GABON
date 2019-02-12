@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PUBLIER DEMANDE</title>
+	<meta charset="utf-8">
+	<meta lang="fr">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="page.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Alice|Charm|KoHo|Lato|Roboto+Mono" rel="stylesheet">
+	<meta name="description" content="Job GABON">
+	<meta name="keywords" content="emploi,boulot,travail,GABON,Libreville">
+	<meta name="author" content="Raissa Mour">
+</head>
+
+<body>
+	<header>
+		<img src="img/logo.PNG">
+		<a href="connexion.html">Connexion</a>
+		<a href="inscription.html">Inscription</a>
+		<a href="compteoublie.html">Identifiant ou mot de passe oublié</a>
+		<select name="Langues">
+			<option value="FRANCAIS">FRANCAIS</option>
+			<option value="ENGLISH">ENGLISH</option>
+			<option value="DEUTSCH">DEUTSCH</option>
+			<option value="ARABE">ARABE</option>
+			<option value="SPANISH">SPANISH</option>	
+		</select>
+	</header>
+
+	<nav>
+		<ul>
+  			<li><a href="index.html">ACCUEIL</a></li>
+  			<li><a href="demande.html">DEMANDES</a></li>
+  			<li><a href="offre.html">OFFRES</a></li>
+  			<li class="dropdown">
+    			<a href="javascript:void(0)" class="dropbtn">PUBLIER</a>
+    			<div class="dropdown-content">
+      				<a href="publieroffre.html">OFFRES</a>
+      				<a href="publierdemande.html" class="active">DEMANDES</a>
+    			</div>
+  			</li>
+  			<li><a href="politique.html">POLITIQUE</a></li>
+  			<li><a href="apropos.html">A PROPOS</a></li>
+  			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+
+	<div class="demande1">
+	<p>Identifiez-vous avant de publier une demande</p>
+		<form>
+			<input type="text" placeholder="Votre identifiant">
+			<input type="password"  placeholder="Votre de passe"><br><br>
+			<button class="buttonvert" >CONNEXION</button><br><br>
+			<li><a href="compteoublie.html">Mot de passe oublié?</a></li>
+  			<li> <a href="inscription.html">Vous n'avez pas de compte? Creer ici </a></li>
+		</form>
+	</div>
+
+	<div class="demande2">
+	<form>
+		<fieldset>
+		<h2>Publier votre demande d'emploi</h2>
+			<p>Une demande dans:</p>
+				<form>
+  					<input type="radio" name="gender" value="Entreprise" checked> Une entreprise<br>
+  					<input type="radio" name="gender" value="Particulier"> Un particulier<br>
+  				</form>
+  			<p>Selection le type d'emploie :</p>
+  				<form>
+  					<input type="radio" name="gender" value="Apleintemps" checked>Temps plein <br>
+  					<input type="radio" name="gender" value="employeur">Temps partiel<br>
+  					<input type="radio" name="gender" value="agentrecruteur">Contrat<br><br>
+  				</form>
+  		</fieldset>
+  	</form>
+  	<form class="formoffre">
+		<fieldset>
+  			<input type="text" placeholder="Villes ou vous souhaité travailler "><br><br>
+  			<input type="text" placeholder="Votre proffession"><br><br>
+  			<input type="email" placeholder="Un email"><br><br>
+  			<input type="text" placeholder="Votre contact"><br><br>
+  			<input type="text" placeholder="Que faites vous actuellement?"><br><br>
+  			Ajouter votre cv:<input type="file"><br>
+		</fieldset>
+	</form>
+	<form>
+		<fieldset>
+			<textarea name="competence" style="width: 500px; height: 100px">
+       				Compétences/Expriences en quelques mots
+			</textarea><br>
+			<textarea name="Description de l'emploie" style="width: 500px; height: 100px">
+       				Que recherchez-vous	?
+			</textarea><br>
+			Creer une alerte emploi<input type="checkbox" name="memoriser" > 
+			<br>
+			<button class="butonvert">Publier</button>
+		</fieldset>
+	</form>
+	</div>
+	<br><br><br><br>
+
+	<footer>
+		<div class="monfooter">
+			<p><i class="fas fa-map-marker"></i> Centre ville</p>
+			<p>BP 176 Libreville</p>
+			<p>GABON</p>
+		</div>
+
+		<div class="monfooter">
+			<p>JobGabon</p>
+			<img src="img/logo.PNG">
+			<p>Copyright @RaissaMOUR</p>
+		</div>
+		
+		<div class="monfooter">
+			<p><i class="fas fa-phone"></i> Tel: +241 06065864</p>
+			<p><i class="fas fa-envelope"></i> Email: jobGABON@gmail.ga</p>
+			<p>Rejoignez nous sur :<i class="fab fa-facebook"></i></p>
+		</div>
+
+		<div class="monfooter">
+			<p>	Ecole +241</p>
+			<p>REF-DIG</p>
+			<p>Ogooue Labs</p>
+		</div>
+	</footer>	
+
+</body>
+</html>
